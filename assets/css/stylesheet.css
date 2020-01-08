@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+html {
+    font-size: 10px;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.head-wrapper {
+    font-size: 1.125em;
+    line-height: 1.375em;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: #6e6e6e;
+}
+.image-wrapper  {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.hotel-image {
+    width: 50%;
+    padding-left: 19.75rem;
+}
+.heading-wrapper h2 {
+    font-size: 3em;
+    line-height: 1.375em;
+    color: #282828;
+    font-weight: 500;
+    text-align: center;
+}
+.heading-wrapper p {
+    font-size: 1em;
+    line-height: 1.375em;
+    color: #6e6e6e;
+    text-align: center;
+}
+.nav-wrapper h1 {
+    font-size: 2.250em;
+    line-height: 1.375em;
+    color: #000000;
+    font-weight: lighter;
+    text-align: center;
+}
+.nav-wrapper p {
+    width: 60.875rem;
+    height: 9.063rem;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #5c5c5c;
+    text-align: center;
+    padding-left: 9.063rem;
+}
+.service-wrapper {
+    font-size: 2em;
+    line-height: 1.375em;
+    color: #000000;
+    font-weight: lighter;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.column {
+    width: 25%;
+    padding: 0;
+}
+.provider-wrapper button {
+    color: white;
+    background-color: orangered;
+    border-radius: 0.313em;
+    padding: 0.313em;
+    border: none;
+}
+.provider-wrapper h4 {
+    font-size: 1.750em;
+    color: #000000;
+    font-weight: 100;
+}
+.provider-wrapper p {
+    font-size: 1em;
+    color: #5c5c5c;
+}
+.gallery-wrapper {
+    font-size: 2em;
+    color: #000000;
+    font-weight: 100;
+    text-align: center;
+}
+.gallery-wrapper button {
+    color: white;
+    background-color: orangered;
+    border-radius: 0.313em;
+    border: none;
+    padding: 0.313em 0.625em;
+}
+.images-wrapper {
+    display: flex;
+}
+.pictures-wrapper {
+    width: 25%;
+    padding-left: 30px;
+}
+.para-wrapper {
+    float: left;
+}
+.paragraph-wrapper p {
+    color: #5c5c5c;
+    font-size: 16px;
+    width: 50%;
+}
+.foot-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-wrapper {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    text-align: left;
+}
+.copy-wrapper {
+    font-size: 14px;
+    line-height: 28px;
+    color: #5c5c5c;
+    text-align: right;
+}
